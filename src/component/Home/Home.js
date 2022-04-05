@@ -1,5 +1,6 @@
 
 import React, { useEffect, useReducer, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Line } from 'recharts';
 import useReview from '../../customHooks/useReview';
 import Review from '../Review/Review';
@@ -42,9 +43,9 @@ const Home = () => {
              
             </div>
             
-               <Line to='/review'><button className='review-button'>See all Review</button></Line>
-           
-           
+               <Link to='/review'><button className='review-button'>See all Review</button></Link>
+               
+
         </div>
     );
 };

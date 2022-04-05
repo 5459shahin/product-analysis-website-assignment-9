@@ -1,0 +1,10 @@
+.blogs{
+    margin: 0 auto;
+    padding: 20px;
+    width: 700px;
+    background-color: rgb(184, 184, 218);
+
+}
+.blogs h3{
+    padding: 10px;
+}

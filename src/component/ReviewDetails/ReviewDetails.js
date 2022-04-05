@@ -1,4 +1,5 @@
 import React from 'react';
+import './ReviewDeatil.css'
 
 const ReviewDetails = (props) => {
     
@@ -6,7 +7,7 @@ const ReviewDetails = (props) => {
     return (
         <div className='review'>
            <div className='review-item'>
-           <h3>name: {name}</h3>
+           <h3 className=''><small className='review-name'>name:</small> <small>{name}</small></h3>
             <p>Comment: {comment}</p>
            </div>
             <h4 className='mb-10'>ratings: {ratings}</h4>

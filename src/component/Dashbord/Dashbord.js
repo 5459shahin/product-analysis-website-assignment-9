@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, Pie, PieChart, Tooltip, XAxis } from 'recharts';
-import LinChart from '../LineChart/LinChart';
+import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Pie, PieChart, Tooltip, XAxis } from 'recharts';
+
 
 const Dashbord = () => {
     
@@ -16,12 +16,12 @@ const Dashbord = () => {
         <div className='chart'>
             <div>
                 <h3>month wish sell</h3>
-                <LinChart width={500} height={300} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
+                <LineChart width={500} height={300} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
                     <Line type="monotone" dataKey="sell" stroke="#8884d8"></Line>
                     <CartesianGrid stroke="#ccc" strokeDasharray="5 5" ></CartesianGrid>
                     <XAxis dataKey="month"></XAxis>
                     <Tooltip></Tooltip>
-                </LinChart>
+                </LineChart>
 
                 <div className='chart'>
                 <h4>Investment vs Revenue</h4>

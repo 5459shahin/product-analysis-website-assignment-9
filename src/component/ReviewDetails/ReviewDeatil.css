@@ -1,0 +1,11 @@
+.review{
+    border: 1px solid aqua;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+}
+.review .review-name{
+    font-size: bold;
+}
