@@ -1,3 +1,7 @@
+.chart-component{
+    width: 80%;
+    margin-left: 50px;
+}
 .chart{
     display: grid;
     grid-template-columns: repeat(2, 1fr);

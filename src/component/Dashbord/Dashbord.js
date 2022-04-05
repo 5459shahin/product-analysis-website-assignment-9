@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Pie, PieChart, Tooltip, XAxis } from 'recharts';
+import './Dashborad.css'
 
 
 const Dashbord = () => {
@@ -13,7 +14,7 @@ const Dashbord = () => {
        }, [])
   
     return (
-        <div className='chart'>
+        <div className='chart-component'>
             <div>
                 <h3>month wish sell</h3>
                 <LineChart width={500} height={300} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
