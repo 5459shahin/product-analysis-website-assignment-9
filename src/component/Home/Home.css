@@ -2,16 +2,22 @@
     margin: 40px;
     display: flex;
 }
+.home-component .home-component-product-info h1{
+    color: rgb(200, 255, 0);
+    margin: 10px;
+    font-weight: bold;
+}
 .home-component .home-component-product-info{
-    color: blue;
     width: 50%;
     height: 400px;
+    margin: 20px;
 }
 .home-component button{
     width: 150px;
     height: 50px;
     background-color: aquamarine;
     border-radius: 8px;
+    margin-top: 20px;
 
 }
 
@@ -31,5 +37,16 @@
     width: 700px;
     
 
+    
+}
+
+.review-button{
+    width: 150px;
+    height: 50px;
+    background-color: aquamarine;
+    border-radius: 8px;
+    color: rgb(104, 84, 158);
+    margin-bottom: 30px;
+    font-weight: bold;
     
 }

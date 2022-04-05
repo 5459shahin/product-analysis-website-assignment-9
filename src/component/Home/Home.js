@@ -16,7 +16,7 @@ const Home = () => {
             <div className='home-component'>
                 <div className='home-component-product-info'>
                     <h1 className='text-5xl'>your best products</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sed consectetur temporibus reprehenderit fugit expedita reiciendis, aliquam ipsum neque repellat!</p>
+                    <p>Volvo is among the most progressive proponents of climate neutrality, a fact supported by its rapidly electrified vehicle line-up and greener production processes. It’s also rolling out brand new fully electric vehicles every year, with</p>
 
                   <button> live demo</button>
                 </div>
