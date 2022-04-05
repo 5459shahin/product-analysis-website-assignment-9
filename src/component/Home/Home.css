@@ -1,0 +1,35 @@
+.home-component{
+    margin: 40px;
+    display: flex;
+}
+.home-component .home-component-product-info{
+    color: blue;
+    width: 50%;
+    height: 400px;
+}
+.home-component button{
+    width: 150px;
+    height: 50px;
+    background-color: aquamarine;
+    border-radius: 8px;
+
+}
+
+.product img{
+    width: 600px;
+    height: 500px;
+}
+.review-detail{
+    background-color: rgb(202, 191, 191);
+   
+    
+}
+.review-detail .review-item{
+    margin: 0 auto;
+    background-color: rgb(226, 186, 186);
+    display: flex;
+    width: 700px;
+    
+
+    
+}
